@@ -5,6 +5,103 @@
 		<title>Drew Bowman's Resume</title>
 	</head>
 	<body>
-		<p>Hello World!</p>
+		<!--Header with navigation links-->
+		<section id="page-header" class="header">
+			<header>
+				<h1 id="title">Drew Bowman Resume Fall 2021</h1>
+
+				<!--Image Section-->
+				<section id="resume-image">
+					<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFJjSu2CIhZ7w/profile-displayphoto-shrink_400_400/0/1574130492035?e=1635379200&v=beta&t=VxkWvlBaMKXJhwi5NttZC1gMc9EBboXgup5PAJFkJsw" width="20%">
+				</section>
+
+				<nav>
+					<a href="#contact-info">Contact Information</a><br>
+					<a href="#education">Education</a><br>
+					<a href="#skills">Skills</a><br>
+					<a href="#honors-and-awards">Honors and Awards</a><br>
+				</nav>
+			</header>
+		</section>
+
+		<!--Main part of resume with different sections-->
+		<div id="main-resume">
+
+			<!--Contact Info Section-->
+			<section id="contact-info" class="resume-section">
+				<h2 class="section-header">Contact Information</h2>
+				<p id="name">Drew Bowman</p>
+				<address id="home-address" class="address">
+					<h3 class="subsection-header">Address</h3>
+					<p class="street-address">
+						<span class="address street">409 Wildflower Lane <br>
+						Blacksburg, VA 24060</span>
+					</p>
+				</address>
+				<div id="other-contact-info">
+					<a href="">(408) 239-3765</a>
+					<br>
+					<a href="">drewb00@vt.edu</a>
+				</div>
+			</section>
+
+			<!--Education Section-->
+			<section id="education" class="resume-section">
+				<h2 class="section-header">Education</h2>
+				<section id="college-education">
+					<p class="location bold-text" id="college-location">Virignia Tech, Blacksburg - Sophomore, Computer Science</p>
+					<p class="date-range" id="college-date">August 2019 - Current</p>
+					<ul class="education-list">
+						<li class="gpa">Cumulative GPA: 3.94</li>
+						<li class="description">Expected graduation year of 2023 with a Computer Science degree</li>
+					</ul>
+				</section>
+				<section id="highschool-education">
+					<p class="location bold-text" id="highschool-location">Blacksburg High School (BHS), Blacksburg VA - Advanced Studies Diploma</p>
+					<p class="date-range" id="highschool-date">August 2016 - May 2019</p>
+					<ul class="education-list">
+						<li class="gpa">Cumulative GPA: 4.2</li>
+						<li class="description">Acquired 28 transferable credit hours from Advanced Placement courses</li>
+					</ul>
+				</section>
+			</section>
+
+			<!--Skills Section-->
+			<section id="skills" class="resume-section">
+				<h2 class="section-header">Skills</h2>
+				<div id="programming-languages">
+					<h3 class="subsection-header">Programming Languages</h3>
+					<ul class="skill-list">
+						<li>Java</li>
+						<li>JavaScript</li>
+						<li>Python</li>
+						<li>Swift</li>
+						<li>C</li>
+						<li>Unreal Engine/C++</li>
+					</ul>
+				</div>
+				<div id="computer-skills">
+					<h3 class="subsection-header">Computer Skills</h3>
+					<ul class="skill-list">
+						<li>Github</li>
+						<li>GUI Programming/HTML</li>
+						<li>Object-Oriented Programming</li>
+						<li>Regular Expressions</li>
+					</ul>
+				</div>
+			</section>
+
+			<!--Honors and Awards Section-->
+			<section id="honors-and-awards" class="resume-section">
+				<h2 class="section-header">Honors and Awards</h2>
+				<ul class="honors-list">
+					<li>Member of the Engineering Living Learning Community (Galileo) <span class="date-range">August 2019 – May 2020</span></li>
+					<li>AP Scholar with Distinction <span class="date-range">July 2019</span></li>
+					<li>Member of the Virginia Tech Honors College <span class="date-range">January 2020 – PRESENT</span></li>
+					<li>Member of the BHS Chapter of the Math Honors <span class="date-range">Society October 2018 - May 2019</span></li>
+				</ul>
+			</section>
+		</div>
+
 	</body>
 </html>
