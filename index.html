@@ -11,41 +11,53 @@
 			<header>
 				<h1 id="title">Drew Bowman Resume Fall 2021</h1>
 
-				<!--Image Section-->
-				<div id="resume-image">
-					<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFJjSu2CIhZ7w/profile-displayphoto-shrink_400_400/0/1574130492035?e=1635379200&v=beta&t=VxkWvlBaMKXJhwi5NttZC1gMc9EBboXgup5PAJFkJsw" width="200" alt="A picture of Drew Bowman">
-				</div>
-
 				<nav>
-					<a href="#contact-info">Contact Information</a><br>
-					<a href="#education">Education</a><br>
-					<a href="#experience">Experience</a><br>
-					<a href="#skills">Skills</a><br>
-					<a href="#honors-and-awards">Honors and Awards</a><br>
+					<a class="header-link" href="#contact-info">Contact Information</a>
+					<a class="header-link" href="#education">Education</a>
+					<a class="header-link" href="#experience">Experience</a>
+					<a class="header-link" href="#skills">Skills</a>
+					<a class="header-link" href="#honors-and-awards">Honors and Awards</a>
 				</nav>
 			</header>
 		</section>
+
+		<!--Image Section-->
+		<div id="resume-image">
+			<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFJjSu2CIhZ7w/profile-displayphoto-shrink_400_400/0/1574130492035?e=1635379200&v=beta&t=VxkWvlBaMKXJhwi5NttZC1gMc9EBboXgup5PAJFkJsw" width="200" alt="A picture of Drew Bowman">
+		</div>
 
 		<!--Main part of resume with different sections-->
 		<div id="main-resume">
 
 			<!--Contact Info Section-->
 			<section id="contact-info" class="resume-section">
-				<h2 class="section-header">Contact Information</h2>
-				<p id="name">Drew Bowman</p>
-
-				<h3 class="subsection-header">Address</h3>
-				<address id="home-address" class="address">
-					<p class="street-address">
-						<span class="address street">409 Wildflower Lane <br>
-						Blacksburg, VA 24060</span>
-					</p>
-				</address>
+				<h2 class="section-header" id="contact-info-header">Contact Information</h2>
 
 				<div id="other-contact-info">
+					<h3 class="subsection-header" id="name">Drew Bowman</h3>
 					<a id="phone" href="tel:4082393765">(408) 239-3765</a>
 					<br>
 					<a id="email" href="mailto:drewb00@vt.edu">drewb00@vt.edu</a>
+				</div>
+
+				<!--Address sections-->
+				<div id="home-address-section">
+					<h3 class="subsection-header">Home Address</h3>
+					<address id="home-address" class="address">
+						<p class="street-address">
+							<span class="address street">409 Wildflower Lane <br>
+							Blacksburg, VA 24060</span>
+						</p>
+					</address>
+				</div>
+				<div id="college-address-section">
+					<h3 class="subsection-header">College Address</h3>
+					<address id="college-address" class="address">
+						<p class="street-address">
+							<span class="address street">200 Eheart St SE<br>
+							Blacksburg, VA 24060</span>
+						</p>
+					</address>
 				</div>
 			</section>
 
@@ -53,7 +65,7 @@
 			<section id="education" class="resume-section">
 				<h2 class="section-header">Education</h2>
 				<div id="college-education">
-					<p class="location bold-text" id="college-location">Virignia Tech, Blacksburg VA - Sophomore, Computer Science</p>
+					<p class="location bold-text" id="college-location">Virignia Tech, Blacksburg VA<span class="extra-info"> - Sophomore, Computer Science</span></p>
 					<p class="date-range" id="college-date">August 2019 - Current</p>
 					<ul class="education-list">
 						<li class="gpa">Cumulative GPA: 3.94</li>
@@ -61,7 +73,7 @@
 					</ul>
 				</div>
 				<div id="highschool-education">
-					<p class="location bold-text" id="highschool-location">Blacksburg High School (BHS), Blacksburg VA - Advanced Studies Diploma</p>
+					<p class="location bold-text" id="highschool-location">Blacksburg High School (BHS), Blacksburg VA<span class="extra-info"> - Advanced Studies Diploma</span></p>
 					<p class="date-range" id="highschool-date">August 2016 - May 2019</p>
 					<ul class="education-list">
 						<li class="gpa">Cumulative GPA: 4.2</li>
@@ -74,7 +86,7 @@
 			<section id="experience" class="resume-section">
 				<h2 class="section-header">Experience</h2>
 				<div id="MCS-experience">
-					<p class="location bold-text" id="MCS-location">Summer Internship, New River, VA - Motion Control Systems</p>
+					<p class="location bold-text" id="MCS-location">Summer Internship, New River, VA<span class="extra-info"> - Motion Control Systems</span></p>
 					<p class="date-range" id="MCS-date">May 2021 - August 2021</p>
 					<ul class="experience-list">
 						<li>Created a webiste to automate processes for the company using micropython on microcontrollers</li>
@@ -82,7 +94,7 @@
 					</ul>
 				</div>
 				<div id="Videogame-experience">
-					<p class="location bold-text" id="Videogame-location">Programming Project, Blacksburg VA - Video Game Replica</p>
+					<p class="location bold-text" id="Videogame-location">Programming Project, Blacksburg VA<span class="extra-info"> - Video Game Replica</span></p>
 					<p class="date-range" id="Videogame-date">February 2018 - Current</p>
 					<ul class="experience-list">
 						<li>Developed a basic version of a tactical strategy game based off of Nintendo’s Fire Emblem franchise</li>
