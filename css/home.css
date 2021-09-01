@@ -1,0 +1,19 @@
+/* Global styles------------------------------------*/
+:root {  
+	font-size: 100%;  
+	--banner-size: 12em;
+}
+html{
+    box-sizing: border-box;
+}
+
+/*    
+adds a background and font to eveything in the body. 
+*/
+body {    
+	color: #343434;
+	padding-top: var(--banner-size);
+	font-family:'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+}
