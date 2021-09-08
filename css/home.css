@@ -5,7 +5,7 @@
 }
 html{
     box-sizing: border-box;
-    background-color: #b8f5c9;
+    background-color: #9fbfdf;	/* light blue gray */
 }
 
 /* adds a background and font to eveything in the body. */
@@ -47,12 +47,11 @@ header{
 	width: 20%;
 	padding: 1vw;
 	font-size: 1.25em;
-	color: white;
 	text-decoration: none;
 	border: 2px solid whitesmoke;
 	border-radius: 1em;
 	background-color: darkgrey;
-	color: forestgreen;
+	color: navy;
 }
 #title {
 	color: whitesmoke;
@@ -78,7 +77,7 @@ section div {
 
 /* Colors the headers of each subsection */
 .subsection-header {
-	color: darkgreen;
+	color: navy;
 }
 
 /* Styles the extra information on each section (dates, locations) */
@@ -87,7 +86,7 @@ section div {
 }
 .extra-info {
 	font-style: italic;
-	color:  darkgrey;
+	color:  dimgrey;
 }
 
 /* Profile picture image styling. */
