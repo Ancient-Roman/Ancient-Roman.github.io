@@ -1,6 +1,6 @@
 /* Global styles------------------------------------*/
-:root {  
-	font-size: 100%;  
+:root {
+	font-size: 100%;
 	--banner-size: 8em;
 }
 html{
@@ -9,7 +9,7 @@ html{
 }
 
 /* adds a background and font to eveything in the body. */
-body {    
+body {
 	color: #343434;
 	padding-top: var(--banner-size);
 	font-family:'Montserrat', sans-serif;
@@ -19,25 +19,25 @@ body {
 
 #contact-info,
 #experience,
-#honors-and-awards {
+#skills {
 	background-color: whitesmoke;
 }
 
 /* Header styles. Creates a banner that stays at the top of the page regardless
 	of scrolling. */
-header{    
+header{
 	text-align: center;
 }
-#page-header{    
-	position: fixed;    
-	display: flex;    
-	justify-content: center;    
-	align-items: center;    
-	top: 0;    
-	left: 0;    
-	background: black;    
-	width: 100%;    
-	height: auto;    
+#page-header{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	background: black;
+	width: 100%;
+	height: auto;
 	min-height: var(--banner-size);
 	border: 5px solid black;
 	border-top: 0px;
@@ -58,7 +58,7 @@ header{
 	font-family: fantasy;
 }
 
-/* Creates dotted lines between each section of the resume. 
+/* Creates dotted lines between each section of the resume.
 	Colors each title and makes it its own row of the flex display.
 	Makes all the other elements stay in the same row.*/
 section {
@@ -72,7 +72,7 @@ section {
 section div {
 	flex: 1;
 	padding-left: 3em;
-	padding-right: 3em;  
+	padding-right: 3em;
 }
 
 /* Colors the headers of each subsection */
@@ -97,4 +97,3 @@ section div {
 	border: 1em ridge darkgrey;
 	width: 20%
 }
-
