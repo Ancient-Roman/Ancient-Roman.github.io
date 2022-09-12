@@ -57,6 +57,9 @@ header{
 	color: whitesmoke;
 	font-family: fantasy;
 }
+.header-link:hover { 
+  background-color: rgb(200, 200, 200);
+}
 
 /* Creates dotted lines between each section of the resume.
 	Colors each title and makes it its own row of the flex display.
@@ -95,5 +98,6 @@ section div {
   	margin-left: auto;
   	margin-right: auto;
 	border: 1em ridge darkgrey;
+	border-radius: 5px;
 	width: 20%
 }
