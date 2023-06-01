@@ -23,6 +23,12 @@ body {
 	background-color: whitesmoke;
 }
 
+/* Center this section */
+#contact-info {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
 /* Header styles. Creates a banner that stays at the top of the page regardless
 	of scrolling. */
 header{
