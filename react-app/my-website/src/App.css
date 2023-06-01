@@ -1,0 +1,113 @@
+/* Global styles------------------------------------*/
+:root {
+  font-size: 100%;
+  --banner-size: 8em;
+}
+html{
+    box-sizing: border-box;
+    background-color: #b2c6db;  /* light blue gray */
+}
+
+/* adds a background and font to eveything in the body. */
+body {
+  color: #343434;
+  padding-top: var(--banner-size);
+  font-family:'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#contact-info,
+#experience,
+#skills {
+  background-color: whitesmoke;
+}
+
+/* Add padding to this section */
+#contact-info {
+  padding-bottom: 1em;
+}
+
+/* Header styles. Creates a banner that stays at the top of the page regardless
+  of scrolling. */
+header{
+  text-align: center;
+}
+#page-header{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background: black;
+  width: 100%;
+  height: auto;
+  min-height: var(--banner-size);
+  border: 5px solid black;
+  border-top: 0px;
+}
+/* Creates, colors, and styles the buttons on the banner. */
+.header-link {
+  width: 20%;
+  padding: 1vw;
+  font-size: 1.25em;
+  text-decoration: none;
+  border: 2px solid whitesmoke;
+  border-radius: 1em;
+  background-color: darkgrey;
+  color: navy;
+}
+#title {
+  color: whitesmoke;
+  font-family: fantasy;
+}
+.header-link:hover { 
+  background-color: rgb(200, 200, 200);
+}
+
+/* Creates dotted lines between each section of the resume.
+  Colors each title and makes it its own row of the flex display.
+  Makes all the other elements stay in the same row.*/
+section {
+  border-top: 1px dotted grey;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-header-centered {
+  text-align: center;
+  flex-basis: 100%;
+}
+.section-header {
+  flex-basis: 100%;
+  padding-inline-start: 1em;
+}
+section div {
+  flex: 1;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+/* Colors the headers of each subsection */
+.subsection-header {
+  color: navy;
+}
+
+/* Styles the extra information on each section (dates, locations) */
+.date-range {
+  color:  grey;
+}
+.extra-info {
+  font-style: italic;
+  color:  dimgrey;
+}
+
+/* Profile picture image styling. */
+#resume-pic {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  /*border: 1em ridge darkgrey;
+  border-radius: 5px;*/
+  width: 100%
+}
