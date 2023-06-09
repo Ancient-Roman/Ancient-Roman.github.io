@@ -8,28 +8,28 @@ function MainResume() {
 
 				<div id="email-contact-info">
 					<h3 class="subsection-header" id="name">Email Address</h3>
-					<a id="email" href="mailto:bowmangolf00@gmail.com">bowmangolf00@gmail.com</a>
+					<a id="email" class="link" href="mailto:bowmangolf00@gmail.com">bowmangolf00@gmail.com</a>
 				</div>
 
 				<div id="linkedin-contact-info">
 					<h3 class="subsection-header" id="name">LinkedIn</h3>
-					<a id="linkedin" href="https://www.linkedin.com/in/douglas-bowman-0b909a197/" target="_blank" rel="noreferrer">Drew Bowman's LinkedIn</a>
+					<a id="linkedin" class="link" href="https://www.linkedin.com/in/douglas-bowman-0b909a197/" target="_blank" rel="noreferrer">Drew Bowman's LinkedIn</a>
 				</div>
 
 				<div id="github-contact-info">
 					<h3 class="subsection-header" id="name">GitHub</h3>
-					<a id="github" href="https://github.com/Ancient-Roman" target="_blank" rel="noreferrer">Drew Bowman's GitHub</a>
+					<a id="github" class="link" href="https://github.com/Ancient-Roman" target="_blank" rel="noreferrer">Drew Bowman's GitHub</a>
 				</div>
 			</section>
 
 			<section id="education" class="resume-section">
 				<h2 class="section-header">Education</h2>
 				<div id="college-education">
-					<p class="location bold-text" id="college-location">Virignia Tech, Blacksburg VA<span class="extra-info"> - Senior, Computer Science</span></p>
-					<p class="date-range" id="college-date">August 2019 - Current</p>
+					<p class="location bold-text" id="college-location">Virignia Tech, Blacksburg VA<span class="extra-info"> - Graduated Senior, Computer Science</span></p>
+					<p class="date-range" id="college-date">August 2019 - May 2023</p>
 					<ul class="education-list">
 						<li class="gpa">Cumulative GPA: 3.96</li>
-						<li class="description">Expected graduation year of 2023 with a Computer Science degree, Music Technology Minor</li>
+						<li class="description">Graduated with a BS in Computer Science, Music Technology Minor</li>
 					</ul>
 				</div>
 				<div id="highschool-education">
@@ -70,8 +70,8 @@ function MainResume() {
 					<p class="location bold-text" id="Videogame-location">Programming Project, Blacksburg VA<span class="extra-info"> - Tactical Video Game</span></p>
 					<p class="date-range" id="Videogame-date">February 2018 - Current</p>
 					<ul class="experience-list">
-						<li>Developed a tactical strategy game based off of Nintendo’s Fire Emblem franchise</li>
-						<li>Original game code in Java, currently developing a cleaner remake this year: <a href="https://github.com/Ancient-Roman/Fire-Emblem-Project/tree/campaign/Fire%20Emblem%20Remake" target="_blank" rel="noreferrer>See the project's Github page</a></li>
+						<li>Developed a tactical strategy game based off of Nintendo's Fire Emblem franchise</li>
+						<li>Original game code in Java, currently developing a cleaner remake this year: <a href="https://github.com/Ancient-Roman/Fire-Emblem-Project/tree/campaign/Fire%20Emblem%20Remake" target="_blank" rel="noreferrer">See the project's Github page</a></li>
 					</ul>
 				</div>
 				<div id="iOS-projects">

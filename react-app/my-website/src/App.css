@@ -5,13 +5,13 @@
 }
 html{
     box-sizing: border-box;
-    background-color: #b2c6db;  /* light blue gray */
+    background-color: rgb(199, 224, 189); /* light green */
 }
 
 /* adds a background and font to eveything in the body. */
 body {
   color: #343434;
-  padding-top: var(--banner-size);
+  /* padding-top: var(--banner-size); */ /* uncomment for fixed banner */
   font-family:'Montserrat', sans-serif;
   font-size: 1em;
   line-height: 1.5;
@@ -20,7 +20,7 @@ body {
 #contact-info,
 #experience,
 #skills {
-  background-color: whitesmoke;
+  background-color: rgb(245, 254, 241);
 }
 
 /* Add padding to this section */
@@ -34,36 +34,46 @@ header{
   text-align: center;
 }
 #page-header{
-  position: fixed;
-  display: flex;
+  /* position: fixed; */ /* uncomment for fixed banner */
   justify-content: center;
   align-items: center;
   top: 0;
   left: 0;
-  background: black;
+  background: rgb(136, 158, 135);
   width: 100%;
   height: auto;
   min-height: var(--banner-size);
-  border: 5px solid black;
   border-top: 0px;
 }
 /* Creates, colors, and styles the buttons on the banner. */
 .header-link {
   width: 20%;
-  padding: 1vw;
+  padding: 0.9vw;
   font-size: 1.25em;
   text-decoration: none;
-  border: 2px solid whitesmoke;
-  border-radius: 1em;
-  background-color: darkgrey;
-  color: navy;
+  border: 2px solid rgba(68, 85, 71, 0.939);
+  border-radius: 0.5em;
+  background-color: rgb(199, 224, 189);
+  color: rgb(51, 102, 61);
+  margin: 0.1em
 }
 #title {
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   font-family: fantasy;
 }
 .header-link:hover { 
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(180, 202, 170);
+}
+
+/* links */
+/* unvisited link */
+a.link:link {
+  color: green;
+}
+
+/* visited link */
+a.link:visited {
+  color: rgb(32, 75, 32);
 }
 
 /* Creates dotted lines between each section of the resume.
@@ -90,12 +100,12 @@ section div {
 
 /* Colors the headers of each subsection */
 .subsection-header {
-  color: navy;
+  color: rgb(77, 96, 76);
 }
 
 /* Styles the extra information on each section (dates, locations) */
 .date-range {
-  color:  grey;
+  color:  rgb(90, 107, 90);
 }
 .extra-info {
   font-style: italic;
