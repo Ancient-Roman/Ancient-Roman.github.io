@@ -13,12 +13,12 @@ function MainResume() {
 
 				<div id="linkedin-contact-info">
 					<h3 class="subsection-header" id="name">LinkedIn</h3>
-					<a id="linkedin" href="https://www.linkedin.com/in/douglas-bowman-0b909a197/" target="_blank">Drew Bowman's LinkedIn</a>
+					<a id="linkedin" href="https://www.linkedin.com/in/douglas-bowman-0b909a197/" target="_blank" rel="noreferrer">Drew Bowman's LinkedIn</a>
 				</div>
 
 				<div id="github-contact-info">
 					<h3 class="subsection-header" id="name">GitHub</h3>
-					<a id="github" href="https://github.com/Ancient-Roman" target="_blank">Drew Bowman's GitHub</a>
+					<a id="github" href="https://github.com/Ancient-Roman" target="_blank" rel="noreferrer">Drew Bowman's GitHub</a>
 				</div>
 			</section>
 
@@ -71,7 +71,7 @@ function MainResume() {
 					<p class="date-range" id="Videogame-date">February 2018 - Current</p>
 					<ul class="experience-list">
 						<li>Developed a tactical strategy game based off of Nintendo’s Fire Emblem franchise</li>
-						<li>Original game code in Java, currently developing a cleaner remake this year: <a href="https://github.com/Ancient-Roman/Fire-Emblem-Project/tree/campaign/Fire%20Emblem%20Remake" target="_blank">See the project's Github page</a></li>
+						<li>Original game code in Java, currently developing a cleaner remake this year: <a href="https://github.com/Ancient-Roman/Fire-Emblem-Project/tree/campaign/Fire%20Emblem%20Remake" target="_blank" rel="noreferrer>See the project's Github page</a></li>
 					</ul>
 				</div>
 				<div id="iOS-projects">
