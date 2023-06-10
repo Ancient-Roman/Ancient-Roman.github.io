@@ -1,0 +1,132 @@
+/* Global styles------------------------------------*/
+:root {
+  font-size: 100%;
+  --banner-size: 8em;
+}
+html{
+    box-sizing: border-box;
+    background-color: rgb(199, 224, 189); /* light green */
+}
+
+/* adds a background and font to eveything in the body. */
+body {
+  color: #343434;
+  /* padding-top: var(--banner-size); */ /* uncomment for fixed banner */
+  font-family:'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#contact-info,
+#experience,
+#skills {
+  background-color: rgb(245, 254, 241);
+}
+
+/* Add padding to this section */
+#contact-info {
+  padding-bottom: 1em;
+}
+
+/* Header styles. Creates a banner that stays at the top of the page regardless
+  of scrolling. */
+header{
+  text-align: center;
+  width: 100%;
+}
+#page-header{
+  /* position: fixed; */ /* uncomment for fixed banner */
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background: rgb(136, 158, 135);
+  width: 100%;
+  height: auto;
+  min-height: var(--banner-size);
+  border-top: 0px;
+}
+.nav-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* Creates, colors, and styles the buttons on the banner. */
+.header-link {
+  width: min-content;
+  padding: 0.9vw;
+  font-size: 1.25em;
+  text-decoration: none;
+  border: 2px solid rgba(68, 85, 71, 0.939);
+  border-radius: 0.5em;
+  background-color: rgb(199, 224, 189);
+  color: rgb(51, 102, 61);
+  margin: 0.1em;
+  white-space: nowrap;
+}
+#title {
+  color: rgb(0, 0, 0);
+  font-family: fantasy;
+}
+.header-link:hover { 
+  background-color: rgb(180, 202, 170);
+}
+
+/* links */
+/* unvisited link */
+a.link:link {
+  color: green;
+}
+
+/* visited link */
+a.link:visited {
+  color: rgb(32, 75, 32);
+}
+
+/* Creates dotted lines between each section of the resume.
+  Colors each title and makes it its own row of the flex display.
+  Makes all the other elements stay in the same row.*/
+section {
+  border-top: 1px dotted grey;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-header-centered {
+  text-align: center;
+  flex-basis: 100%;
+}
+.section-header {
+  flex-basis: 100%;
+  padding-inline-start: 1em;
+}
+section div {
+  flex: 1;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+/* Colors the headers of each subsection */
+.subsection-header {
+  color: rgb(77, 96, 76);
+}
+
+/* Styles the extra information on each section (dates, locations) */
+.date-range {
+  color:  rgb(90, 107, 90);
+}
+.extra-info {
+  font-style: italic;
+  color:  dimgrey;
+}
+
+/* Profile picture image styling. */
+#resume-pic {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  /*border: 1em ridge darkgrey;
+  border-radius: 5px;*/
+  width: 100%
+}
