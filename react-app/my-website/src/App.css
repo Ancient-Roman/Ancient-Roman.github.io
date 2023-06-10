@@ -32,6 +32,7 @@ body {
   of scrolling. */
 header{
   text-align: center;
+  width: 100%;
 }
 #page-header{
   /* position: fixed; */ /* uncomment for fixed banner */
@@ -45,9 +46,16 @@ header{
   min-height: var(--banner-size);
   border-top: 0px;
 }
+.nav-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 /* Creates, colors, and styles the buttons on the banner. */
 .header-link {
-  width: 20%;
+  width: min-content;
   padding: 0.9vw;
   font-size: 1.25em;
   text-decoration: none;
@@ -55,7 +63,8 @@ header{
   border-radius: 0.5em;
   background-color: rgb(199, 224, 189);
   color: rgb(51, 102, 61);
-  margin: 0.1em
+  margin: 0.1em;
+  white-space: nowrap;
 }
 #title {
   color: rgb(0, 0, 0);
