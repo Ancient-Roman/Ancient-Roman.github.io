@@ -17,7 +17,7 @@ const accomplishments = [
 	summary: "Software Engineer, Richmond, VA - Costar Group",
 	date: "July 2023 - Present",
 	items: [
-	  "Used Higcharts with React/TS and C#/SQL to deliver real-time and historical performance data",
+	  "Used Highcharts with React/TS and C#/SQL to deliver real-time and historical performance data",
 	  "Gained full-stack and agile experience",
 	  "Mentored an intern dev in summer 2024"
 	],
@@ -39,7 +39,7 @@ const accomplishments = [
 	summary: "Custom Budgeting Dashboard",
 	date: "May 2025 - Present",
 	items: [
-	  "Using highcharts with Next JS to analyze user csv transaction data and create budgeting strategies",
+	  "Using Highcharts with Next JS to analyze user csv transaction data and create budgeting strategies",
 	],
 	image: "/budgeting-project.png",
 	link: "https://github.com/Ancient-Roman/budgeting-dashboard"
