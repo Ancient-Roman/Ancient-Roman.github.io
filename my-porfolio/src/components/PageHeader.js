@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "./Image";
 
 function PageHeader() {
 	const bannerRef = React.useRef(null);
@@ -46,13 +47,13 @@ function PageHeader() {
 				<div className="flex flex-row gap-4 items-center">
 					<IconLink 
 						href="https://github.com/Ancient-Roman" 
-						imageSrc={"github-mark-white.svg"} 
+						imageSrc={"/github-mark-white.svg"} 
 					/>
 					<IconLink 
 						href="https://www.linkedin.com/in/douglas-bowman-0b909a197/" 
-						imageSrc={"linkedin-svgrepo-com-white.svg"} 
+						imageSrc={"/linkedin-svgrepo-com-white.svg"} 
 					/>
-					<IconLink href="mailto:bowmangolf00@gmail.com" imageSrc={"email-8-svgrepo-com-white.svg"}/>
+					<IconLink href="mailto:bowmangolf00@gmail.com" imageSrc={"/email-8-svgrepo-com-white.svg"}/>
 
 				</div>
 			</header>
@@ -67,7 +68,7 @@ const HeaderLink = ({ href, children }) => {
 const IconLink = ({href, children, imageSrc}) => {
 	if (imageSrc){
 		return <a href={href} target="_blank" rel="noreferrer">
-			<img className="w-12 h-12 transition duration-200 hover:brightness-75" src={imageSrc} alt="profile link"></img>
+			<Image className="w-12 h-12 transition duration-200 hover:brightness-75" src={imageSrc} alt="profile link"></Image>
 		</a>;
 	}
 

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from './Image';
 
 export default function AlternatingCards({accomplishments}) {
   useEffect(() => {
@@ -37,11 +38,11 @@ export default function AlternatingCards({accomplishments}) {
             {/* Image/Icon side */}
             <div className="w-full md:w-1/2 h-64 flex items-center justify-center p-4">
                 {card.image &&
-                    <img
-                        src={card.image}
-                        alt="Icon"
-                        className={`${card.link ? "cursor-pointer" : ""} h-32 max-w-80 object-contain transform hover:scale-105 transition duration-300`}
-                        onClick={card.link ? () => clickLink(card.link) : undefined}
+                    <Image
+                      src={card.image}
+                      alt="Icon"
+                      className={`${card.link ? "cursor-pointer" : ""} h-32 max-w-80 object-contain transform hover:scale-105 transition duration-300`}
+                      onClick={card.link ? () => clickLink(card.link) : undefined}
                     />
                 }
             </div>
