@@ -1,8 +1,8 @@
 {
-  "name": "my-website",
+  "name": "my-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ancient-roman.github.io/ancient-roman.github.io",
+  "homepage": "https://ancient-roman.github.io/my-portfolio",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.8",
     "@testing-library/jest-dom": "^5.16.5",
@@ -42,10 +42,7 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
     "gh-pages": "^6.3.0",
-    "postcss-cli": "^11.0.1",
-    "tailwind": "^2.3.1",
     "tailwindcss": "^3.4.17"
   }
 }
