@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ancient-roman.github.io/static/css/main.f080312d.css",
+    "main.js": "/ancient-roman.github.io/static/js/main.2745c876.js",
+    "static/js/453.195b869a.chunk.js": "/ancient-roman.github.io/static/js/453.195b869a.chunk.js",
+    "static/media/boxicons.svg": "/ancient-roman.github.io/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/ancient-roman.github.io/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/ancient-roman.github.io/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/ancient-roman.github.io/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/ancient-roman.github.io/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/ancient-roman.github.io/index.html",
+    "main.f080312d.css.map": "/ancient-roman.github.io/static/css/main.f080312d.css.map",
+    "main.2745c876.js.map": "/ancient-roman.github.io/static/js/main.2745c876.js.map",
+    "453.195b869a.chunk.js.map": "/ancient-roman.github.io/static/js/453.195b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f080312d.css",
+    "static/js/main.2745c876.js"
+  ]
+}
