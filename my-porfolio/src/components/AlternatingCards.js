@@ -20,10 +20,6 @@ export default function AlternatingCards({accomplishments}) {
     return title ? title.toLowerCase().replaceAll(" ", "-") : "";
   }
 
-  const clickLink = (link) => {
-    window.open(link, '_blank').focus();
-  }
-
   return (
     <div className="p-8 space-y-12 bg-gray-100 min-h-screen">
       {accomplishments.map((card, index) => (
@@ -37,14 +33,7 @@ export default function AlternatingCards({accomplishments}) {
         >
             {/* Image/Icon side */}
             <div className="w-full md:w-1/2 h-64 flex items-center justify-center p-4">
-                {card.image &&
-                    <Image
-                      src={card.image}
-                      alt="Icon"
-                      className={`${card.link ? "cursor-pointer" : ""} h-32 max-w-80 object-contain transform hover:scale-105 transition duration-300`}
-                      onClick={card.link ? () => clickLink(card.link) : undefined}
-                    />
-                }
+                <ClickableImage card={card} />
             </div>
 
           {/* Text side */}
@@ -64,5 +53,29 @@ export default function AlternatingCards({accomplishments}) {
         </div>
       ))}
     </div>
+  );
+}
+
+const ClickableImage = ({card}) => {
+  if (!card.image && !card.link)  return <></>;
+
+  if (card.image && !card.link) {
+    return <Image
+      src={card.image}
+      alt="Icon"
+      className={`h-32 max-w-80 object-contain transform hover:scale-105 transition duration-300`}
+    />
+  }
+
+  return (
+    <>
+      <a href={card.link}>
+        <Image
+          src={card.image}
+          alt="Icon"
+          className={"cursor-pointer h-32 max-w-80 object-contain transform hover:scale-105 transition duration-300"}
+        />
+      </a>
+    </>
   );
 }
